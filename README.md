@@ -19,8 +19,8 @@ Total  unique tenant/domain combinations:    1,327,151
 
 
 Total Tenants:    4,033,132
-    Tenants with SharePoint Enabled: 
-    Tenants with OneDrive Enabled:
+    Tenants with SharePoint Enabled:    1,946,381 (48%)
+    Tenants with OneDrive Enabled:    
 
 
 Total Custom Domains per Tenant
