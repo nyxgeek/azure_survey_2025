@@ -27,8 +27,8 @@ Total Custom Domains per Tenant
 -------------------------------
 Min: 0
 Max: 4999
-Mean: 
-Mode:
+Mean: 1.99
+Mode: 1
 
 *LIVE* Custom Domains per Tenant
 -------------------------------
