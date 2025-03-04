@@ -10,6 +10,7 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 
 ```
 Total domains checked:    7,053,874
+Total tenants found:    4,033,132
 
 
 Total domains identified with live users:    1,323,508
@@ -17,12 +18,19 @@ Total tenants identified with live users:    1,032,350
 Total  unique tenant/domain combinations:    1,327,151
 
 
-Total Tenants:    1,032,350
-    Tenants with SharePoint Enabled:
+Total Tenants:    4,033,132
+    Tenants with SharePoint Enabled: 
     Tenants with OneDrive Enabled:
 
 
-Custom Domains per Tenant
+Total Custom Domains per Tenant
+-------------------------------
+Min: 0
+Max: 4999
+Mean: 
+Mode:
+
+*LIVE* Custom Domains per Tenant
 -------------------------------
 Min: 0
 Max: 374
