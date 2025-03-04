@@ -7,9 +7,16 @@ results of scraping OneDrive from February 2022 - March 2025
 ```
 Total domains checked:    7,053,874
 
+
 Total domains identified with live users:    1,323,508
 Total tenants identified with live users:    1,032,350
-Total unique tenant/domain combinations:    1,327,151
+Total  unique tenant/domain combinations:    1,327,151
+
+
+Total Tenants:    1,032,350
+    Tenants with SharePoint Enabled:
+    Tenants with OneDrive Enabled:
+
 
 Custom Domains per Tenant
 -------------------------------
@@ -19,8 +26,9 @@ Mean: 1.2856
 Mode: 2
 ```
 
-## User Statistics
 
+## User Statistics
+*These are statistics on the usernames, or more appropriately, the UPNs (User Principal Names) which are unique identifiers in Entra ID.*
 
 ```
 Total usernames:    70,252,711    (2025.03.04)
@@ -44,6 +52,19 @@ Min: 1
 Max: 
 Mean: 
 Mode: 
+```
+
+
+## Environments
+```
++----------------+----------+
+| source         | count(*) |
++----------------+----------+
+| onedrive       | 69847070 |
+| onedrive_gcc   |   336642 |
+| onedrive_dod   |    xxxxx |
+| onedrive_china |    15551 |
++----------------+----------+
 ```
 
 
@@ -104,4 +125,48 @@ In this list, all unique usernames (UPNs) were considered. This reflects the num
   175622 in
   159490 za
   158896 sa
+```
+
+## Bot Stats
+```
+Total machines employed over lifetime of project:    98
+Average active machines:    33.64
+
+Total machine-hours of scraping:    493,584
+```
+
+### Active Machines per Month
+*Note: I only started tracking in March of 2023*
+```
++---------+----------------+----------------------------------------------------------+
+| month   | distinct_hosts |    1  <----------------------------------------->  49    |
++---------+----------------+----------------------------------------------------------+
+| 2023-03 |    49          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     |
+| 2023-04 |    49          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     |
+| 2023-05 |    50          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    |
+| 2023-06 |    40          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX              |
+| 2023-07 |    39          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX               |
+| 2023-08 |    30          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                        |
+| 2023-09 |    15          |    XXXXXXXXXXXXXXX                                       |
+| 2023-10 |    15          |    XXXXXXXXXXXXXXX                                       |
+| 2023-11 |    15          |    XXXXXXXXXXXXXXX                                       |
+| 2023-12 |    15          |    XXXXXXXXXXXXXXX                                       |
+| 2024-01 |    36          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                  |
+| 2024-02 |    42          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            |
+| 2024-03 |    30          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                        |
+| 2024-04 |    33          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                     |
+| 2024-05 |    35          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                   |
+| 2024-06 |    33          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                     |
+| 2024-07 |    33          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                     |
+| 2024-08 |    32          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                      |
+| 2024-09 |    32          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                      |
+| 2024-10 |    33          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                     |
+| 2024-11 |    36          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                  |
+| 2024-12 |    48          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      |
+| 2025-01 |    45          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         |
+| 2025-02 |    45          |    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         |
+| 2025-03 |    11          |    XXXXXXXXXXX                                           |
++---------+----------------+----------------------------------------------------------+
+
+
 ```
