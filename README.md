@@ -1,5 +1,9 @@
 # azure_survey_2025
 results of scraping OneDrive from February 2022 - March 2025
+***
+For additional information, you can find the survey wordlists used here: https://github.com/nyxgeek/trontastic_usernames
+
+My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmoocon
 
 
 ## General Statistics
@@ -32,11 +36,19 @@ Mode: 2
 
 ```
 Total usernames:    70,252,711    (2025.03.04)
-
+    Unique usernames:    14,410,943
 
 Total days of scraping:    1127
 Usernames Found per Day:    62,336 usernames/day
 
+
+Total Numeric Usernames (1234, 12345, 123456):    10,405,919
+    Unique Numeric Usernames (1234, 12345, 123456):    4,066,717
+
+Total Non-Numeric Usernames (jsmith, jsmith9):    59,799,886
+    Unique Non-Numeric Usernames (jsmith, jsmith9):    10,344,182
+    Number of Usernames with Digit Appended (jsmith9):    1,749,196
+    Unique base usernames (jsmith):    8,255,074
 
 
 Users per Domain - Fortune 500
