@@ -40,14 +40,16 @@ nyxgeek@GIBSON# cat latest_emails.txt| grep '^david\.' | wc -l
 
 ---
 
-### James vs Jim
+### James vs Jim vs Jimmy
 ```
 nyxgeek@GIBSON# cat latest_emails.txt | grep '^james\.' | wc -l
 231093
 nyxgeek@GIBSON# cat latest_emails.txt | grep '^jim\.' | wc -l
 17408
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jimmy\.' | wc -l
+11882
 ```
-**Winner: James (93%)**
+**Winner: James (89%)**
 
 ---
 
