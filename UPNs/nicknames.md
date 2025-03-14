@@ -2,6 +2,18 @@
 A Comparison of Name Variations and Nicknames
 
 
+### Alexander vs Alex
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^alexander\.' | wc -l
+44342
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^alex\.' | wc -l
+70664
+```
+**Winner: Alex (61%)**
+
+---
+
 ### Benjamin vs Ben
 
 ```
@@ -40,6 +52,19 @@ nyxgeek@GIBSON# cat latest_emails.txt| grep '^david\.' | wc -l
 
 ---
 
+### Jacqueline vs Jackie vs Jaclyn
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jacqueline\.' | wc -l
+26945
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jackie\.' | wc -l
+11747
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jaclyn\.' | wc -l
+2785
+```
+**Winner: Jacqueline (65%)**
+
+---
+
 ### James vs Jim vs Jimmy
 ```
 nyxgeek@GIBSON# cat latest_emails.txt | grep '^james\.' | wc -l
@@ -63,3 +88,58 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^jenny\.' | wc -l
 22084
 ```
 **Winner: Jennifer (87%)**
+
+---
+
+### Matthew vs Matt
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^matthew\.' | wc -l
+155445
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^matt\.' | wc -l
+30996
+```
+**Winner: Matthew (83%)**
+
+---
+
+### Samuel vs Sam
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^samuel\.' | wc -l
+39753
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^sam\.' | wc -l
+32277
+```
+**Winner: Samuel (55%)**
+
+---
+
+### Steven vs Steve
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^steven\.' | wc -l
+83542
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^steve\.' | wc -l
+54012
+```
+**Winner: Steven (61%)**
+
+---
+
+### Timothy vs Tim
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^timothy\.' | wc -l
+49909
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^tim\.' | wc -l
+32037
+```
+**Winner: Timothy (61%)**
+
+---
+
+### William vs Will
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^william\.' | wc -l
+118595
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^will\.' | wc -l
+7096
+```
+**Winner: William (94%)**
