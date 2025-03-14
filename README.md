@@ -98,9 +98,6 @@ More user stats can be found within the UPNs folder.
 
 ## Top 20 TLDs
 
-Full lists can be found in top_tld_by_domain_count.csv and top_tld_by_user_count.csv.
-
-
 ### Top TLDs by Domain Count
 
 In this list, all unique domains were considered. This reflects the range of domain TLDs.
@@ -128,6 +125,8 @@ In this list, all unique domains were considered. This reflects the range of dom
    3285 se
 ```
 
+Full list: [top_tld_by_domain_count.txt](TLDs/top_tld_by_domain_count.txt)
+
 ### Top TLDs of Entire User Population
 
 In this list, all unique usernames (UPNs) were considered. This reflects the number of users and their UPN TLDs.
@@ -154,6 +153,7 @@ In this list, all unique usernames (UPNs) were considered. This reflects the num
   159490 za
   158896 sa
 ```
+Full list: [top_tld_by_upn_count.txt](TLDs/top_tld_by_upn_count.txt)
 
 ## Bot Stats
 ```
