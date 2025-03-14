@@ -77,6 +77,10 @@ Max:
 Mean: 
 Mode: 
 ```
+More user stats can be found within the UPNs folder.
+
+#### Username Stats
+- [Nicknames](UPNs/nicknames.md)
 
 
 ## Environments
