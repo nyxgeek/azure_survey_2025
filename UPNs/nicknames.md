@@ -26,6 +26,22 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^ben\.' | wc -l
 
 ---
 
+### Brittany vs Britanny vs Britney vs Brittney
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^brittney\.' | wc -l
+6798
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^brittany\.' | wc -l
+33672
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^britanny\.' | wc -l
+15
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^britney\.' | wc -l
+2388
+```
+**Winner: Brittany**
+
+---
+
 ### Charles vs Charlie vs Chuck
 
 ```
@@ -40,6 +56,17 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^chuck\.' | wc -l
 
 ---
 
+### Chris vs Christopher
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^christopher\.' | wc -l
+146942
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^chris\.' | wc -l
+115075
+```
+**Winner: Christopher (56%)**
+
+---
 ### David vs Dave
 
 ```
