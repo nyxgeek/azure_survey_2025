@@ -13,7 +13,7 @@ nyxgeek@GIBSON# cat latest_emails.txt | cut -d@ -f1 | grep '^[0-9]\{1,\}$'| sort
 4066717
 ```
 
-Total Domains with Numeric Usernames: 1,265  (see full lists [here](../TLDs/))
+Total Domains with Numeric Usernames: 1,265  (see full TLD lists [here](../TLDs/))
 
 ```
 Number    Number
