@@ -6,13 +6,30 @@ Total Numeric Usernames: 10,405,919
 
 Total Unique Numeric Usernames: 4,066,717
 
-
 ```
 nyxgeek@GIBSON# cat latest_emails.txt | cut -d@ -f1 | grep '^[0-9]\{1,\}$'| wc -l
 10405919
 nyxgeek@GIBSON# cat latest_emails.txt | cut -d@ -f1 | grep '^[0-9]\{1,\}$'| sort -u |  wc -l
 4066717
 ```
+
+Total Domains with Numeric Usernames: 1,265  (see full lists [here](../TLDs/))
+
+```
+Number    Number
+of        of
+Digits    Domains    Graph
+1         82         #####
+2         65         ####
+3         33         ##
+4         26         #
+5         39         ##
+6         883        ##################################################
+7         295        #################
+8         6          #
+9         1          #
+```
+
 
 ### Numeric Username Length Popularity
 
