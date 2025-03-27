@@ -67,6 +67,18 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^chris\.' | wc -l
 **Winner: Christopher (56%)**
 
 ---
+
+### Daniel vs Dan
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^daniel\.' | wc -l
+204887
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^dan\.' | wc -l
+19188
+```
+**Winner: Daniel (91%)**
+
+---
 ### David vs Dave
 
 ```
@@ -118,6 +130,32 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^jenny\.' | wc -l
 
 ---
 
+### Jonathon vs Jonathan vs Jon
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jonathan\.' | wc -l
+87747
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jonathon\.' | wc -l
+3291
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^jon\.' | wc -l
+17738
+```
+**Winner: Jonathan (81%)**
+
+---
+
+### Lawrence vs Larry
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^lawrence\.' | wc -l
+8498
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^larry\.' | wc -l
+17294
+```
+**Winner: Larry (67%)**
+
+---
+
 ### Matthew vs Matt
 ```
 nyxgeek@GIBSON# cat latest_emails.txt | grep '^matthew\.' | wc -l
@@ -126,6 +164,33 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^matt\.' | wc -l
 30996
 ```
 **Winner: Matthew (83%)**
+
+---
+
+### Michael vs Mike
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^michael\.' | wc -l
+365492
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^mike\.' | wc -l
+50188
+```
+**Winner: Michael (88%)**
+
+---
+
+### Robert vs Rob vs Bob
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^robert\.' | wc -l
+178716
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^bob\.' | wc -l
+7007
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^rob\.' | wc -l
+12659
+```
+**Winner: Robert (90%)**
+
 
 ---
 
