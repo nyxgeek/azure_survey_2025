@@ -14,6 +14,18 @@ nyxgeek@GIBSON# cat latest_emails.txt | grep '^alex\.' | wc -l
 
 ---
 
+### Andrew vs Andy
+
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^andrew\.' | wc -l
+164039
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^andy\.' | wc -l
+28696
+```
+***Winner: Andrew (85%)**
+
+---
+
 ### Benjamin vs Ben
 
 ```
