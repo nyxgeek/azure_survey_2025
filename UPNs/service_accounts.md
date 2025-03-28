@@ -16,10 +16,17 @@
 ```
 nyxgeek@GIBSON# cat latest_emails.txt | grep '^administrator@' | wc -l
 47363
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^administrator@' | grep '.onmicrosoft.com$' | wc -l
+8570
 nyxgeek@GIBSON# cat latest_emails.txt | grep '^admin@' | wc -l
 340748
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^admin@' | grep '.onmicrosoft.com$' | wc -l
+125689
 ```
 **Winner: admin (88%)**
+
+- Of the **admin** accounts, 125689 / 340748 (37%) were located on the organization's ```.onmicrosoft.com``` default domain, versus a custom domain.
+- Of the **administrator** accounts, 8570 / 47363 (18%) were located on the organization's ```.onmicrosoft.com``` default domain, versus a custom domain.
 
 ---
 
