@@ -12,8 +12,10 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 Total domains checked:    7,053,874
 Total tenants found:    4,033,132
 
-
 Total domains identified with live users:    1,323,508
+    Live   Custom    Domains:      1,177,674
+    Live OnMicrosoft Domains:        145,834
+
 Total tenants identified with live users:    1,032,350
 Total  unique tenant/domain combinations:    1,327,151
 
