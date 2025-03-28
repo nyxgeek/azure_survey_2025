@@ -2,13 +2,26 @@
 
 ### Big Picture - Overview
 
-Total Domains tested:
-Total Domains with Service Accounts:
+- Total Domains tested for service accounts: 5,880,777
 
+- Total Domains with Service Accounts: 1,079,217
 
+- Total Domains Overall with Live Users: 1,323,508
 
-### admin vs administrator vs info
+- Percent of Live Domains with service accounts identified: 82% (1079217 / 1323508)
 
+---
+
+### admin vs administrator
+```
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^administrator@' | wc -l
+47363
+nyxgeek@GIBSON# cat latest_emails.txt | grep '^admin@' | wc -l
+340748
+```
+**Winner: admin (88%)**
+
+---
 
 ### Top 100 Service Accounts
 
