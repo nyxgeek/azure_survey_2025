@@ -82,6 +82,7 @@ Mode:
 More user stats can be found within the UPNs folder.
 
 #### Username Stats
+- [Initials](UPNs/initials.md)
 - [Nicknames](UPNs/nicknames.md)
 - [Numeric Usernames](UPNs/numeric.md)
 - [Service Accounts](UPNs/service_accounts.md)
