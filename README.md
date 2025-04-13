@@ -66,6 +66,8 @@ Mode: 2
 Total  usernames:    70,252,711    (2025.03.04)
 Unique usernames:    14,410,943
 
+Average users per domain: 59.65
+
 Total days of  scraping:    1127
 Usernames Found per Day:    62,336 usernames/day
 
