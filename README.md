@@ -130,8 +130,6 @@ In this list, all unique domains were considered. This reflects the range of dom
    3285 se
 ```
 
-Full list: [top_tld_by_domain_count.txt](TLDs/top_tld_by_domain_count.txt)
-
 ![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_world_numbers.png)
 
 ![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_europe.png)
@@ -146,6 +144,7 @@ Full list: [top_tld_by_domain_count.txt](TLDs/top_tld_by_domain_count.txt)
 
 ![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_oceania.png)
 
+Full list: [top_tld_by_domain_count.txt](TLDs/top_tld_by_domain_count.txt)
 
 
 ### Top TLDs of Entire User Population
@@ -174,6 +173,21 @@ In this list, all unique usernames (UPNs) were considered. This reflects the num
   159490 za
   158896 sa
 ```
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_world_numbers.png)
+
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_europe.png)
+
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_northamerica.png)
+
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_southamerica.png)
+
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_africa.png)
+
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_asia.png)
+
+![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_oceania.png)
+
+
 Full list: [top_tld_by_upn_count.txt](TLDs/top_tld_by_upn_count.txt)
 
 ## Bot Stats
