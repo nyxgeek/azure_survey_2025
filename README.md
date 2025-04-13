@@ -132,6 +132,22 @@ In this list, all unique domains were considered. This reflects the range of dom
 
 Full list: [top_tld_by_domain_count.txt](TLDs/top_tld_by_domain_count.txt)
 
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_world_numbers.png)
+
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_europe.png)
+
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_northamerica.png)
+
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_southamerica.png)
+
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_africa.png)
+
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_asia.png)
+
+![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_oceania.png)
+
+
+
 ### Top TLDs of Entire User Population
 
 In this list, all unique usernames (UPNs) were considered. This reflects the number of users and their UPN TLDs.
