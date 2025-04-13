@@ -37,3 +37,7 @@ smith
 Most popular 'append' numbers:
 ```
 ```
+
+![bar graph showing count of orgs that append digits to usernames - most use 2, followed by 1](../graphics/numeric_append.png)
+
+![bar graph showing count of orgs that append digits to usernames - most use 2, followed by 1](../graphics/numeric_append_leadingzero.png)
