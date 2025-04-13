@@ -44,14 +44,12 @@ Total Tenants:    4,033,132
 
 Total Custom Domains per Tenant
 -------------------------------
-Min: 0
 Max: 4999
 Mean: 1.99
 Mode: 1
 
 *LIVE* Custom Domains per Tenant
 -------------------------------
-Min: 0
 Max: 374
 Mean: 1.2856
 Mode: 2
@@ -84,20 +82,6 @@ Unique Usernames with Digit Appended (jsmith9):    1,749,196
 
 Unique base usernames (jsmith9 -> jsmith):    8,255,074
 
-
-Users per Domain - Fortune 500
--------------------------------
-Min: 1
-Max:
-Mean:
-Mode:
-
-Users per Domain - All
--------------------------------
-Min: 1
-Max: 
-Mean: 
-Mode: 
 ```
 More user stats can be found within the UPNs folder.
 
@@ -152,6 +136,10 @@ In this list, all unique domains were considered. This reflects the range of dom
    3318 in
    3285 se
 ```
+
+![Top domains by domain count - pie graph](graphics/top_domains_by_domain_count.png)
+![Top domains by domain count - pie graph](graphics/top_domains_by_user_count.png)
+
 
 ### Top Country-Code TLDs - Total Domains
 
