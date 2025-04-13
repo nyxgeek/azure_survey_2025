@@ -7,19 +7,20 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 
 ## Contents
 1. [General Statistics](#general-statistics)
-2. [User Statistics](#user-statistics)
+2. [ADFS Statistics](#adfs-statistics)
+3. [User Statistics](#user-statistics)
    - [Initials](UPNs/initials.md)
    - [Nicknames](UPNs/nicknames.md)
    - [Numeric Usernames](UPNs/numeric.md)
    - [Service Accounts](UPNs/service_accounts.md)
    - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
-3. [Environments](#environments)
-4. [Top TLDs](#top-tlds)
+4. [Environments](#environments)
+5. [Top TLDs](#top-tlds)
    - [Top TLDs by Number of Unique Domains](#top-tlds-by-domain-count)
    - [Maps - Total Domains per ccTLD](#top-country-code-tlds---total-domains)
    - [Top TLDs by Number of Users](#top-tlds-by-user-count)
    - [Maps - Total Users per ccTLD](#top-country-code-tlds---total-users)
-5. [Bot Stats](#bot-stats)
+6. [Bot Stats](#bot-stats)
 
 ---
 
@@ -56,6 +57,40 @@ Mode: 2
 ```
 
 ![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domains_user_count.png)
+
+---
+
+## ADFS Statistics
+
+### ADFS Popularity - Overall vs Fortune 500
+```
+Overall
+Total Tenants: 939,706
+    ADFS: 98,344 (10.4%)
+    Managed: 841,362 (89.5%)
+
+Fortune 500
+Total Tenants: 499
+    ADFS: 211 (42.3%)
+    Managed: 288 (57.7%)
+```
+
+### Top External IDPs - Overall
+```
+71961 godaddy.com
+5810 	okta.com
+2551 	sso.duosecurity.com
+1024 	secureserver.net
+703 	onelogin.com
+467 	google.com
+203 	okta-emea.com
+```
+
+### Top External IDPs - Fortune 500
+```
+66	Okta
+4	OneLogin
+```
 
 ---
 
