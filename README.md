@@ -5,6 +5,15 @@ For additional information, you can find the survey wordlists used here: https:/
 
 My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmoocon
 
+## Contents
+1. [General Statistics](#general-statistics)
+2. [User Statistics](#user-statistics)
+3. [Top TLDs](#top-tlds)
+   - [Top TLDs by Number of Unique Domains](#top-tlds-by-domain-count)
+   - [Top TLDs by Number of Users](#top-tlds-by-user-count)
+4. [Bot Stats](#bot-stats)
+
+---
 
 ## General Statistics
 
@@ -101,7 +110,7 @@ More user stats can be found within the UPNs folder.
 ```
 
 
-## Top 20 TLDs
+## Top TLDs
 
 ### Top TLDs by Domain Count
 
@@ -130,6 +139,8 @@ In this list, all unique domains were considered. This reflects the range of dom
    3285 se
 ```
 
+### Top Country-Code TLDs - Total Domains
+
 ![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_world_numbers.png)
 
 ![chloropleth map showing number of domains found per TLD, such as .us or .uk](graphics/ccTLD_by_domain_europe.png)
@@ -147,7 +158,7 @@ In this list, all unique domains were considered. This reflects the range of dom
 Full list: [top_tld_by_domain_count.txt](TLDs/top_tld_by_domain_count.txt)
 
 
-### Top TLDs of Entire User Population
+### Top TLDs by User Count
 
 In this list, all unique usernames (UPNs) were considered. This reflects the number of users and their UPN TLDs.
 
@@ -173,6 +184,9 @@ In this list, all unique usernames (UPNs) were considered. This reflects the num
   159490 za
   158896 sa
 ```
+
+### Top Country-Code TLDs - Total Users
+
 ![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_world_numbers.png)
 
 ![chloropleth map showing number of users found per TLD, such as .us or .uk](graphics/ccTLD_by_user_europe.png)
