@@ -55,6 +55,8 @@ Mean: 1.2856
 Mode: 2
 ```
 
+![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domains_user_count.png)
+
 ---
 
 ## User Statistics
