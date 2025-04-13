@@ -351,6 +351,7 @@ Top 3-number prefixes:
   18450 202xxx
 ```
 
+![graph showing distribution of numeric usernames first 3 chars](../graphics/numeric_users_6digit_prefix_123xxx.png)
 
 
 ### 7-Digit Numeric UPN
