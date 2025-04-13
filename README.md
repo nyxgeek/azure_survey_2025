@@ -62,13 +62,15 @@ Mode: 2
 
 ## ADFS Statistics
 
-### ADFS Popularity - Overall vs Fortune 500
+### ADFS Popularity - Overall
 ```
 Overall
 Total Tenants: 939,706
     ADFS: 98,344 (10.4%)
     Managed: 841,362 (89.5%)
-
+```
+### ADFS Popularity - Overall
+```
 Fortune 500
 Total Tenants: 499
     ADFS: 211 (42.3%)
