@@ -13,6 +13,7 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
    - [Numeric Usernames](UPNs/numeric.md)
    - [Service Accounts](UPNs/service_accounts.md)
    - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
+3. [Environments](#environments)
 4. [Top TLDs](#top-tlds)
    - [Top TLDs by Number of Unique Domains](#top-tlds-by-domain-count)
    - [Maps - Total Domains per ccTLD](#top-country-code-tlds---total-domains)
@@ -56,6 +57,7 @@ Mean: 1.2856
 Mode: 2
 ```
 
+---
 
 ## User Statistics
 *These are statistics on the usernames, or more appropriately, the UPNs (User Principal Names) which are unique identifiers in Entra ID.*
@@ -104,6 +106,8 @@ More user stats can be found within the UPNs folder.
 - [Service Accounts](UPNs/service_accounts.md)
 - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
 
+---
+
 ## Environments
 ```
 +----------------+----------+
@@ -116,6 +120,7 @@ More user stats can be found within the UPNs folder.
 +----------------+----------+
 ```
 
+---
 
 ## Top TLDs
 
@@ -210,6 +215,8 @@ In this list, all unique usernames (UPNs) were considered. This reflects the num
 
 
 Full list: [top_tld_by_upn_count.txt](TLDs/top_tld_by_upn_count.txt)
+
+---
 
 ## Bot Stats
 ```
