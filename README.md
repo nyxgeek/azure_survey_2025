@@ -15,7 +15,9 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
    - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
 4. [Top TLDs](#top-tlds)
    - [Top TLDs by Number of Unique Domains](#top-tlds-by-domain-count)
+   - [Maps - Total Domains per ccTLD](#top-country-code-tlds---total-domains)
    - [Top TLDs by Number of Users](#top-tlds-by-user-count)
+   - [Maps - Total Users per ccTLD](#top-country-code-tlds---total-users)
 5. [Bot Stats](#bot-stats)
 
 ---
