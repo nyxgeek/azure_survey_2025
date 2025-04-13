@@ -8,10 +8,15 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 ## Contents
 1. [General Statistics](#general-statistics)
 2. [User Statistics](#user-statistics)
-3. [Top TLDs](#top-tlds)
+   - [Initials](UPNs/initials.md)
+   - [Nicknames](UPNs/nicknames.md)
+   - [Numeric Usernames](UPNs/numeric.md)
+   - [Service Accounts](UPNs/service_accounts.md)
+   - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
+4. [Top TLDs](#top-tlds)
    - [Top TLDs by Number of Unique Domains](#top-tlds-by-domain-count)
    - [Top TLDs by Number of Users](#top-tlds-by-user-count)
-4. [Bot Stats](#bot-stats)
+5. [Bot Stats](#bot-stats)
 
 ---
 
