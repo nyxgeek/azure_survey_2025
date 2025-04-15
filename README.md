@@ -7,6 +7,8 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 
 ## Contents
 1. [General Statistics](#general-statistics)
+   - [Overall Stats](#overall-stats)
+   - [Fortune 500 Stats](#fortune-500-stats)
 2. [ADFS Statistics](#adfs-statistics)
 3. [User Statistics](#user-statistics)
    - [Initials](UPNs/initials.md)
@@ -26,21 +28,51 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 
 ## General Statistics
 
+
+
+### Overall Stats
+Some notes:
+- "Live" refers to tenants or domains where users were identified
+- The "OnMicrosoft" domain for a tenant is their default tenant domain (tenant_name.onmicrosoft.com).
+
+  
 ```
-Total domains checked:    7,053,874
-Total tenants found:    4,033,132
+Total Tenants:    4,033,132
+Tenants with SharePoint Enabled:    1,946,381 (48%)
+Tenants with OneDrive Enabled:     1,946,201 (48%)
+
+Total Live Tenants:    1,032,350
+
+Total Custom Domains: 7,053,874
+Average Domains per Tenant: 1.74
 
 Total domains identified with live users:    1,323,508
     Live   Custom    Domains:      1,177,674
     Live OnMicrosoft Domains:        145,834
 
-Total tenants identified with live users:    1,032,350
-Total  unique tenant/domain combinations:    1,327,151
 
 
-Total Tenants:    4,033,132
-    Tenants with SharePoint Enabled:    1,946,381 (48%)
-    Tenants with OneDrive Enabled:    
+Azure Environments - All Organizations
++----------------+----------+
+| environment    |    COUNT | 
++----------------+----------+
+| commercial     |  4017640 |
+| china          |    13498 |
+| gcc            |      298 |
+| dod            |        7 |
++----------------+----------+
+
+
+Azure Environments - Live Tenants
++----------------+----------+
+| environment    |    COUNT | 
++----------------+----------+
+| commercial     |  1031625 |
+| china          |      498 |
+| gcc            |      263 |
+| dod            |        4 |
++----------------+----------+
+
 
 
 Total Custom Domains per Tenant
@@ -57,6 +89,105 @@ Mode: 2
 ```
 
 ![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domains_user_count.png)
+
+
+### Fortune 500 Stats
+
+As noted, these numbers are from the 2024 Fortune 500 list. In this sample, the total number of tenant is differentiated from the total number of orgs because of the high prevalance of multi-tenant setups in large, Fortune 500 companies.
+
+To reiterate:
+- "Live" refers to tenants or domains where users were identified
+- The "OnMicrosoft" domain for a tenant is their default tenant domain (tenant_name.onmicrosoft.com).
+
+
+```
+Total Organizations in Azure: 499 (99.8%)
+  Total Tenants: 553
+Organizations with multi-tenant config: 112 (22%)
+
+Total Orgs with SharePoint: 431
+  Total Tenants with SharePoint: 550
+Total Orgs with OneDrive: 431
+  Total Tenants with OneDrive: 550
+
+Total Live Orgs: 427
+  Total Live Tenants: 431
+
+Total Custom Domains: 67,175
+Average Domains per Org: 155
+Average Domains per Tenant: 121
+Average Tenants per Org: 1.11
+
+Total Domains Identified with Live Users: 3,333 (5% of total custom domains)
+    Live   Custom    Domains:      3,237
+    Live OnMicrosoft Domains:         96
+
+Total tenants identified with live users:    1,032,350
+Total  unique tenant/domain combinations:    1,327,151
+
+
+Azure Environments - All Organizations
++--------------+--------+
+| environment  |  COUNT | 
++--------------+--------+
+| commercial   |    488 |
+| gcc          |     11 |
++--------------+--------+
+
+Azure Environments - Live Tenants
++--------------+--------+
+| environment  |  COUNT | 
++--------------+--------+
+| commercial   |    430 |
+| gcc          |      1 |
++--------------+--------+
+
+
+
+Total Custom Domains per Tenant
+-------------------------------
+Max: 
+Mean: 
+Mode: 
+
+*LIVE* Custom Domains per Tenant
+-------------------------------
+Max: 
+Mean: 
+Mode: 
+```
+
+#### Tenants per Organization - Count Sorted
+```
+Count   |  Number of Tenants
+--------|-------------------
+    387 |  1
+     21 |  2
+     10 |  4
+      8 |  3
+      3 |  7
+      2 |  6
+      1 |  9
+      1 |  8
+      1 |  10
+```
+
+#### Tenants per Organization - Ordered by Number of Tenants
+```
+Count   |  Number of Tenants
+--------|-------------------
+    387 |  1
+     21 |  2
+      8 |  3
+     10 |  4
+    N/A |  5
+      2 |  6
+      3 |  7
+      1 |  8
+      1 |  9
+      1 |  10
+```
+
 
 ---
 
@@ -134,6 +265,8 @@ More user stats can be found within the UPNs folder.
 ---
 
 ## Environments
+
+### Overall Stats - Users per Azure Environment
 ```
 +----------------+----------+
 | source         | count(*) |
@@ -144,6 +277,7 @@ More user stats can be found within the UPNs folder.
 | onedrive_china |    15551 |
 +----------------+----------+
 ```
+
 
 ---
 
