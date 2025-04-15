@@ -88,7 +88,22 @@ Mean: 1.2856
 Mode: 2
 ```
 
-![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domains_user_count.png)
+
+### Domain Sizes
+```
++-------------------+--------------+
+| user_range        | domain_count |
++-------------------+--------------+
+| 001-100           |      1281090 |
+| 101-1,000         |        34364 |
+| 1,001-10,000      |         7036 |
+| 10,001-100,000    |          985 |
+| 100,001-1,000,000 |           32 |
+| 1M+               |            1 |
++-------------------+--------------+
+```
+
+![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domain_counts_employee_populations.png)
 
 
 ### Fortune 500 Stats
@@ -146,15 +161,15 @@ Azure Environments - Live Tenants
 
 Total Custom Domains per Tenant
 -------------------------------
-Max: 
-Mean: 
-Mode: 
+Max: 2293
+Mean: 121.69
+Mode: 14
 
 *LIVE* Custom Domains per Tenant
 -------------------------------
-Max: 
-Mean: 
-Mode: 
+Max: 338
+Mean: 6.08
+Mode: 1
 ```
 
 #### Tenants per Organization - Count Sorted
