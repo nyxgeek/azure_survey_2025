@@ -35,6 +35,9 @@ initials were sourced from john.smith format list that had been filtered on cens
 1229	u
 ```
 
+![bar graph showing the data listed above this](../graphics/initials_first_init_popularity.png)
+
+
 #### john.j.smith list
 
 ```
@@ -65,7 +68,7 @@ initials were sourced from john.smith format list that had been filtered on cens
 96	q
 46	u
 ```
-
+![bar graph showing the data listed above this](../graphics/initials_first_init_popularity_v2.png)
 
 ## Middle Name Initials
 
@@ -99,6 +102,7 @@ initials were sourced from john.smith format list that had been filtered on cens
 397	q
 165	u
 ```
+![bar graph showing the data listed above this](../graphics/initials_middle_init_popularity.png)
 
 
 ## Last Name Initials
@@ -134,6 +138,9 @@ initials were sourced from john.smith format list that had been filtered on cens
 19808	u
 ```
 
+![bar graph showing the data listed above this](../graphics/initials_last_init_popularity.png)
+
+
 #### from john.j.smith
 
 ```
@@ -164,3 +171,4 @@ initials were sourced from john.smith format list that had been filtered on cens
 56	u
 20	x
 ```
+![bar graph showing the data listed above this](../graphics/initials_last_init_popularity_v2.png)
