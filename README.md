@@ -1,6 +1,8 @@
 # azure_survey_2025
-results of scraping OneDrive from February 2022 - March 2025
+Results of scraping OneDrive from February 2022 - March 2025.  All data was collected via Microsoft APIs and OneDrive enumeration. 
+
 ***
+
 For additional information, you can find the survey wordlists used here: https://github.com/nyxgeek/trontastic_usernames
 
 My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmoocon
@@ -23,6 +25,7 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
    - [Top TLDs by Number of Users](#top-tlds-by-user-count)
    - [Maps - Total Users per ccTLD](#top-country-code-tlds---total-users)
 6. [Bot Stats](#bot-stats)
+7. [References](#references)
 
 ---
 
@@ -102,7 +105,6 @@ Mode: 2
 | 1M+               |            1 |
 +-------------------+--------------+
 ```
-
 ![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domain_counts_employee_populations.png)
 
 
@@ -203,6 +205,20 @@ Count   |  Number of Tenants
       1 |  10
 ```
 
+### Domain Sizes
+
+```
++-------------------+--------------+
+| user_range        | domain_count |
++-------------------+--------------+
+| 001-100           |         2127 |
+| 101-1,000         |          649 |
+| 1,001-10,000      |          301 |
+| 10,001-100,000    |          210 |
+| 100,001-1,000,000 |           11 |
++-------------------+--------------+
+```
+![bar graph showing distribution of user population in domains 1.2m of the 1.3m have 1-100 usernames found](graphics/domain_counts_employee_populations_f500.png)
 
 ---
 
@@ -439,3 +455,15 @@ Total machine-hours of scraping:    493,584
 
 
 ```
+
+
+## References
+
+## General Azure Information:
+- [Entra ID Terminology](https://learn.microsoft.com/en-us/entra/fundamentals/whatis#terminology) -- Covers tenants, custom domains, etc
+- [Multi-Tenant Organizations](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview)
+- [OneDrive Enumeration - TrustedSec.com](https://trustedsec.com/blog/onedrive-to-enum-them-all)
+
+## Microsoft APIs
+- [GetUserRealm](https://login.microsoftonline.com/getuserrealm.srf?login=nyxgeek@microsoft.com&xml=1) - General Information from domain name, shows whether managed or ADFS
+- [AutoDiscover](https://aadinternals.com/post/just-looking/) - AADInternals post. Great writeup by Dr Nestori. Entire site is a great resource.
