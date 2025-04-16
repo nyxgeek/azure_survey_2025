@@ -31,7 +31,7 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 
 ## General Statistics
 
-
+Statistics on numbers and types of domains and tenants. Includes overall stats and Fortune 500 stats.
 
 ### Overall Stats
 Some notes:
@@ -459,11 +459,11 @@ Total machine-hours of scraping:    493,584
 
 ## References
 
-## General Azure Information:
+### General Azure Information:
 - [Entra ID Terminology](https://learn.microsoft.com/en-us/entra/fundamentals/whatis#terminology) -- Covers tenants, custom domains, etc
 - [Multi-Tenant Organizations](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview)
 - [OneDrive Enumeration - TrustedSec.com](https://trustedsec.com/blog/onedrive-to-enum-them-all)
 
-## Microsoft APIs
+### Microsoft APIs
 - [GetUserRealm](https://login.microsoftonline.com/getuserrealm.srf?login=nyxgeek@microsoft.com&xml=1) - General Information from domain name, shows whether managed or ADFS
 - [AutoDiscover](https://aadinternals.com/post/just-looking/) - AADInternals post. Great writeup by Dr Nestori. Entire site is a great resource.
