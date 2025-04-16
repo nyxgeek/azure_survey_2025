@@ -49,7 +49,7 @@ Total Live Tenants:    1,032,350
 Total Custom Domains: 7,053,874
 Average Domains per Tenant: 1.74
 
-Total domains identified with live users:    1,323,508
+Total domains identified with live users:    1,323,508 (19% of total custom domains)
     Live   Custom    Domains:      1,177,674
     Live OnMicrosoft Domains:        145,834
 
@@ -118,7 +118,7 @@ To reiterate:
 
 
 ```
-Total Organizations in Azure: 499 (99.8%)
+Total Fortune 500 Orgs in Azure: 499 (99.8%)
   Total Tenants: 553
 Organizations with multi-tenant config: 112 (22%)
 
@@ -138,9 +138,6 @@ Average Tenants per Org: 1.11
 Total Domains Identified with Live Users: 3,333 (5% of total custom domains)
     Live   Custom    Domains:      3,237
     Live OnMicrosoft Domains:         96
-
-Total tenants identified with live users:    1,032,350
-Total  unique tenant/domain combinations:    1,327,151
 
 
 Azure Environments - All Organizations
@@ -302,13 +299,22 @@ More user stats can be found within the UPNs folder.
 +----------------+----------+
 | source         | count(*) |
 +----------------+----------+
-| onedrive       | 69847070 |
-| onedrive_gcc   |   336642 |
-| onedrive_dod   |    xxxxx |
-| onedrive_china |    15551 |
+| commercial     | 69847070 |
+| gcc            |   336642 |
+| dod            |    xxxxx |
+| china          |    15551 |
 +----------------+----------+
 ```
 
+### Fortune 500 Stats - Users per Azure Environment
+```
++--------------+----------+
+| source       | COUNT(*) |
++--------------+----------+
+| commercial   |  9581538 |
+| gcc          |    47340 |
++--------------+----------+
+```
 
 ---
 
