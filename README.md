@@ -112,35 +112,45 @@ Mode: 2
 
 As noted, these numbers are from the 2024 Fortune 500 list. In this sample, the total number of tenant is differentiated from the total number of orgs because of the high prevalance of multi-tenant setups in large, Fortune 500 companies.
 
+ 
+
 To reiterate:
 - "Live" refers to tenants or domains where users were identified
 - The "OnMicrosoft" domain for a tenant is their default tenant domain (tenant_name.onmicrosoft.com).
+- "F500" will be used as shorthand for "Fortune 500"
 
 
 ```
-Total Fortune 500 Orgs in Azure: 499 (99.8%)
-  Total Tenants: 553
-Organizations with multi-tenant config: 112 (22%)
+Total F500 Orgs in Azure: 499 (99.8%)
+  Total F500 Tenants: 809
+F500 Organizations with multi-tenant config: 95 (19%)
 
-Total Orgs with SharePoint: 431
-  Total Tenants with SharePoint: 550
-Total Orgs with OneDrive: 431
-  Total Tenants with OneDrive: 550
+Total F500 Orgs with SharePoint: 434
+Total F500 Orgs with OneDrive: 431
 
-Total Live Orgs: 427
-  Total Live Tenants: 431
+Total F500 Tenants with SharePoint: 434
+Total F500 Tenants with OneDrive: 431
 
-Total Custom Domains: 67,175
-Average Domains per Org: 155
-Average Domains per Tenant: 121
-Average Tenants per Org: 1.11
+Total F500 Live Orgs: 439
+Total F500 Live Tenants: 557
 
-Total Domains Identified with Live Users: 3,333 (5% of total custom domains)
-    Live   Custom    Domains:      3,237
-    Live OnMicrosoft Domains:         96
+Total F500 Custom Domains: 67,175
+Average Domains per Org: 135
+Average Domains per Tenant: 83
+Average Tenants per Org: 1.6
+
+   Total F500 Domains Identified with Live Users: 3,165 (5% of total custom domains)
+      Live   F500  Custom   Domains:       3070
+      Live F500 OnMicrosoft Domains:         95
+   
+   Average Live Domains per Live Org: 7.2
+   Average Live Domains per Live Tenant: 5.7
+   Average Live Tenants per Org: 1.3
 
 
-Azure Environments - All Organizations
+
+
+Azure Environments - All Fortune 500 Orgs
 +--------------+--------+
 | environment  |  COUNT | 
 +--------------+--------+
@@ -148,12 +158,12 @@ Azure Environments - All Organizations
 | gcc          |     11 |
 +--------------+--------+
 
-Azure Environments - Live Tenants
+Azure Environments - Live Fortune 500 Orgs
 +--------------+--------+
 | environment  |  COUNT | 
 +--------------+--------+
 | commercial   |    430 |
-| gcc          |      1 |
+| gcc          |      9 |
 +--------------+--------+
 
 
@@ -175,31 +185,44 @@ Mode: 1
 ```
 Count   |  Number of Tenants
 --------|-------------------
-    387 |  1
-     21 |  2
-     10 |  4
-      8 |  3
-      3 |  7
-      2 |  6
-      1 |  9
+    343 |  1
+     29 |  2
+     17 |  3
+     14 |  4
+      9 |  7
+      8 |  5
+      4 |  9
+      4 |  6
+      3 |  10
       1 |  8
-      1 |  10
+      1 |  25
+      1 |  21
+      1 |  18
+      1 |  13
+      1 |  12
+      1 |  11
 ```
 
 #### Tenants per Organization - Ordered by Number of Tenants
 ```
 Count   |  Number of Tenants
 --------|-------------------
-    387 |  1
-     21 |  2
-      8 |  3
-     10 |  4
-    N/A |  5
-      2 |  6
-      3 |  7
+    343 |  1
+     29 |  2
+     17 |  3
+     14 |  4
+      8 |  5
+      4 |  6
+      9 |  7
       1 |  8
-      1 |  9
-      1 |  10
+      4 |  9
+      3 |  10
+      1 |  11
+      1 |  12
+      1 |  13
+      1 |  18
+      1 |  21
+      1 |  25
 ```
 
 ### Domain Sizes
