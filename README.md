@@ -261,7 +261,7 @@ Total Tenants: 499
 
 ### Top External IDPs - Overall
 ```
-71961 godaddy.com
+71961   godaddy.com
 5810 	okta.com
 2551 	sso.duosecurity.com
 1024 	secureserver.net
@@ -334,8 +334,8 @@ More user stats can be found within the UPNs folder.
 +--------------+----------+
 | source       | COUNT(*) |
 +--------------+----------+
-| commercial   |  9581538 |
-| gcc          |    47340 |
+| commercial   |  9582917 |
+| gcc          |    52694 |
 +--------------+----------+
 ```
 
