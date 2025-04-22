@@ -95,9 +95,11 @@ The most *reliable* way to categorize usernames is by their delimiter placement.
 |                       | Scraped Total                    | 70,664,775  |
 |                       | Percent Accounted For            | 0.9910675   |
 
-```
-[graph of all formats sorted by popularity - total users ]
-```
+
+ 
+
+![pie chart of format categories by user count](../graphics/username_formats_by_category_pie_chart.png)
+
 
 #### Top Username Formats
 These numbers were gathered using regex and first name lists. However, because some first names are also last names, and vice versa, it won't be perfect.
