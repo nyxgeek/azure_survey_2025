@@ -67,6 +67,11 @@ Unfiltered Results with 1 or more found (likely false positives)
 | johnsmit_10x50.178    |             1 |
 +-----------------------+---------------+
 ```
+
+Comparison
+
+![image drawing lines between top raw and top 3 results to show displacement](../graphics/username_formats_by_tenant_comparison.png)
+
 ---
 
 ### Top Username Formats - By Total User Population
