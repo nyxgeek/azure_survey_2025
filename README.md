@@ -318,6 +318,8 @@ More user stats can be found within the UPNs folder.
 - [Numeric Usernames](UPNs/numeric.md)
 - [Service Accounts](UPNs/service_accounts.md)
 - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
+- [Username Formats](UPNs/username_formats.md)
+
 
 ---
 
