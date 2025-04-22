@@ -76,9 +76,35 @@ Comparison
 
 ### Top Username Formats - By Total User Population
 
+
+#### Top Format Catgegories - Grouped by Delimiter
+The most *reliable* way to categorize usernames is by their delimiter placement.
+
+| Format (By Delimiter) | Examples                         | Users Found |
+| --------------------- | -------------------------------- | ----------- |
+| Numeric               | 12345                            | 10,405,919  |
+| Pseudo-numeric        | ab1234                           | 479,049     |
+| Name                  | jsmith,     johns,          john | 37,827,380  |
+| Name.Name             | john.smith,  smith.john          | 19,970,013  |
+| A.Name                | j.smith,    s.john               | 762,411     |
+| Name.A                | john.s,    smith.j               | 279338      |
+| Name.A.Name           | john.j.smith                     | 300,236     |
+| Name.Name.Name        | john.james.smith                 | 9,216       |
+|                       |                                  |             |
+|                       | Calculated Total                 | 70,033,562  |
+|                       | Scraped Total                    | 70,664,775  |
+|                       | Percent Accounted For            | 0.9910675   |
+
 ```
 [graph of all formats sorted by popularity - total users ]
 ```
+
+#### Top Username Formats
+These numbers were gathered using regex and first name lists. However, because some first names are also last names, and vice versa, it won't be perfect.
+
+
+
+
 
 ---
 
