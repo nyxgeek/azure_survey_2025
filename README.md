@@ -18,6 +18,7 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
    - [Numeric Usernames](UPNs/numeric.md)
    - [Service Accounts](UPNs/service_accounts.md)
    - [UPNs with digits appended (jsmith1, jsmith2)](UPNs/append_digits.md)
+   - [Username Formats](UPNs/username_formats.md)
 4. [Environments](#environments)
 5. [Top TLDs](#top-tlds)
    - [Top TLDs by Number of Unique Domains](#top-tlds-by-domain-count)
