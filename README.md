@@ -251,13 +251,18 @@ Total Tenants: 939,706
     ADFS: 98,344 (10.4%)
     Managed: 841,362 (89.5%)
 ```
-### ADFS Popularity - Overall
+![pie chart of the percent of ADFS - 10.4% overall](graphics/adfs_rates_overall.png)
+
+
+
+### ADFS Popularity - Fortune 500
 ```
 Fortune 500
 Total Tenants: 499
     ADFS: 211 (42.3%)
     Managed: 288 (57.7%)
 ```
+![pie chart of the percent of ADFS - 10.4% overall](graphics/adfs_rates_fortune500.png)
 
 ### Top External IDPs - Overall
 ```
