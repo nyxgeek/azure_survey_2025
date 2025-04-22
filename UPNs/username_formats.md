@@ -3,6 +3,41 @@
 
 ### Top Username Formats - By Number of Tenants
 
+Results with 3 or more found usernames of a given format
+
+```
++-----------------------+---------------+
+| userlist              | total_tenants |
++-----------------------+---------------+
+| jsmith_15x5.75        |         35422 |
+| john.50               |         22929 |
+| john.smith_10x50.500  |         11224 |
+| jjsmith_10x5x10.500   |          5748 |
+| johns_5x15.75         |          3290 |
+| smithj_5x15.75        |          1871 |
+| smith.50              |          1495 |
+| j.smith_15x5.75       |          1363 |
+| sjohn_15x5.75         |          1314 |
+| johnsmith_10x50.500   |           821 |
+| smithjj_10x5x10.500   |           807 |
+| jjs_4x5x5.100         |           693 |
+| john.j.smith.1000     |           675 |
+| john.s_5x15.75        |           306 |
+| smith.john_50x10.500  |           174 |
+| johnjs_5x10x10.500    |           129 |
+| john.j.smith.250      |           115 |
+| smith.j_5x15.75       |           102 |
+| s.john_15x5.75        |            77 |
+| smithjohn_50x10.500   |            58 |
+| smithjoh_10x50.186    |            16 |
+| john.james.smith.3600 |             7 |
+| johnsmit_10x50.178    |             1 |
++-----------------------+---------------+
+```
+
+
+Unfiltered Results with 1 or more found (likely false positives)
+
 ```
 +-----------------------+---------------+
 | userlist              | total_tenants |
@@ -32,10 +67,6 @@
 | johnsmit_10x50.178    |             1 |
 +-----------------------+---------------+
 ```
-
----
-
-
 ---
 
 ### Top Username Formats - By Total User Population
