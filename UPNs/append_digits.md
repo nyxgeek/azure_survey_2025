@@ -15,22 +15,12 @@ Unique Domain/Tenants using append digits: 11,128
 ```
 
 
-### Popularity - Formats
-
-jsmith
-smithj
-john.smith
-smith.john
-john
-smith
-
-
 ### Append Numbers
 
 Most popular 'append' numbers:
-```
-```
 
 ![bar graph showing count of orgs that append digits to usernames - most use 2, followed by 1](../graphics/numeric_append.png)
+
+Most popular with leading zeros:
 
 ![bar graph showing count of orgs that append digits to usernames - most use 2, followed by 1](../graphics/numeric_append_leadingzero.png)
