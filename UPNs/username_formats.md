@@ -3,7 +3,7 @@
 
 ### Top Username Formats - By Number of Tenants
 
-Results with 3 or more found usernames of a given format
+Results with 3 or more found usernames of a given format - ** HIGH CONFIDENCE **
 
 ```
 +-----------------------+---------------+
@@ -36,7 +36,7 @@ Results with 3 or more found usernames of a given format
 ```
 
 
-Unfiltered Results with 1 or more found (likely false positives)
+Unfiltered Results with 1 or more found  - ** likely false positives **
 
 ```
 +-----------------------+---------------+
