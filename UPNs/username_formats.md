@@ -101,30 +101,3 @@ The most *reliable* way to categorize usernames is by their delimiter placement.
 ![pie chart of format categories by user count](../graphics/username_formats_by_category_pie_chart.png)
 
 
-#### Top Username Formats
-These numbers were gathered using regex and first name lists. However, because some first names are also last names, and vice versa, it won't be perfect.
-
-
-
-
-
----
-
-#### John.Smith Format
-
-These were extracted from approximately 70 million UPNs by first grepping out ```'^[a-z]\{2,\}\.[a-z]\{2,\}@'``` to get 'name.name' formatted UPNs. Then john.smith UPNs were filtered using grep -f to match a file of first names in regex format (e.g., ```'^john\.'```).
-Since some names are also last names, there will be some false positives from this method, but this should be fairly close.
-
-```
-John Smith (any found): 84514
-John Smith ( >3 found): 51067
-John Smith ( >5 found): 43575
-```
-
-#### Smith.John Format
-
-These were extracted from approximately 70 million UPNs by first grepping out ```'^[a-z]\{2,\}\.[a-z]\{2,\}@'``` to get 'name.name' formatted UPNs. Then smith.john UPNs were filtered using grep -f to match a file of first names in regex format (e.g., ```'^smith\.'```).
-Since some names are also last names, there will be some false positives from this method, but this should be fairly close.
-
-```
-```
