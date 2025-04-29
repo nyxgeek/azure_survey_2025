@@ -29,6 +29,9 @@ My ShmooCon 20 talk (2025) can be found here: https://github.com/nyxgeek/shmooco
 7. [References](#references)
 
 ---
+![graph showing progress of total found](graphics/total_found_250315.png)
+
+---
 
 ## General Statistics
 
